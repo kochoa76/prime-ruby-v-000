@@ -7,5 +7,4 @@ def prime?(num)
     return true
 end
 end
-end 
 puts prime?(105557)
