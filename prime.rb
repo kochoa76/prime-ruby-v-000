@@ -4,7 +4,7 @@ def prime?(num)
     return false
   else
     (2..num-1).to_a.all? {|i| num % i !=0  }
-    return true
+    
 end
 end
 puts prime?(105557)
